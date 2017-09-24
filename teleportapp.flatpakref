@@ -1,0 +1,9 @@
+[Flatpak Ref]
+Title=Teleport
+Name=org.gtk.teleportapp
+Branch=master
+Url=http://frac-tion.com/teleport-flatpak/repo
+IsRuntime=False
+GPGKey=
+RuntimeRepo=https://sdk.gnome.org/gnome.flatpakrepo
+Comment=org.gtk.teleportapp
