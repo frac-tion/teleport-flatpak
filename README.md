@@ -1,5 +1,5 @@
 # teleport-flatpak
 Flatpak repo for teleport
 ```
-flatpak install —from  https://raw.githubusercontent.com/frac-tion/teleport-flatpak/master/teleportapp.flatpakref
+flatpak install —from  http://frac-tion.com/teleport-flatpak/teleportapp.flatpakref
 ```
