@@ -24,4 +24,4 @@ gpg-key:
 	echo Enter the above gpg key id as RELEASE_GPG_KEY in Makefile.config
 
 teleportapp.flatpakref: teleportapp.flatpakref.in
-	sed -e 's|@URL@|${URL}|g' -e 's|@GPG@|$(shell gpg2 --homedir=gpg --export ${RELEASE_GPG_KEY} | base64 | tr -d '\n')|' $< > $@
+	sed -e 's|@URL@|${URL}|g' -e 's|@GPG@|$(shell gpg2 --homedir=~/.gnupg --export ${RELEASE_GPG_KEY} | base64 | tr -d '\n')|' $< > $@
