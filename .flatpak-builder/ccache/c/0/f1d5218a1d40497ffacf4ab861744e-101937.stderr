@@ -1,5 +1,0 @@
-conftest.c:82:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
- main ()
- ^~~~
-conftest.c: In function 'main':
-conftest.c:82:1: warning: old-style function definition [-Wold-style-definition]
