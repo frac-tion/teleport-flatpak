@@ -1,5 +1,0 @@
-[Runtime]
-name=org.gtk.teleportapp.Debug
-
-[ExtensionOf]
-ref=app/org.gtk.teleportapp/x86_64/master
