@@ -1,0 +1,26 @@
+[Application]
+name=org.gtk.teleportapp
+runtime=org.gnome.Platform/x86_64/master
+sdk=org.gnome.Sdk/x86_64/master
+tags=devel;
+command=teleportapp
+
+[Context]
+shared=network;ipc;
+sockets=x11;wayland;system-bus;
+filesystems=xdg-run/dconf;~/.config/dconf:ro;
+
+[Session Bus Policy]
+ca.desrt.dconf=talk
+
+[Environment]
+DCONF_USER_CONFIG_DIR=.config/dconf
+
+[Extension org.gtk.teleportapp.Locale]
+directory=share/runtime/locale
+autodelete=true
+
+[Extension org.gtk.teleportapp.Debug]
+directory=lib/debug
+autodelete=true
+no-autodownload=true

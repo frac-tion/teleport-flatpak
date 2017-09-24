@@ -1,0 +1,33 @@
+glib-watch.c: In function ‘prepare_func’:
+glib-watch.c:273:9: warning: ‘g_source_get_current_time’ is deprecated: Use 'g_source_get_time' instead [-Wdeprecated-declarations]
+         g_source_get_current_time(source, &now);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib/giochannel.h:33:0,
+                 from /usr/include/glib-2.0/glib.h:54,
+                 from glib-watch.h:28,
+                 from glib-watch.c:28:
+/usr/include/glib-2.0/glib/gmain.h:526:6: note: declared here
+ void     g_source_get_current_time (GSource        *source,
+      ^~~~~~~~~~~~~~~~~~~~~~~~~
+glib-watch.c: In function ‘check_func’:
+glib-watch.c:301:9: warning: ‘g_source_get_current_time’ is deprecated: Use 'g_source_get_time' instead [-Wdeprecated-declarations]
+         g_source_get_current_time(source, &now);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib/giochannel.h:33:0,
+                 from /usr/include/glib-2.0/glib.h:54,
+                 from glib-watch.h:28,
+                 from glib-watch.c:28:
+/usr/include/glib-2.0/glib/gmain.h:526:6: note: declared here
+ void     g_source_get_current_time (GSource        *source,
+      ^~~~~~~~~~~~~~~~~~~~~~~~~
+glib-watch.c: In function ‘dispatch_func’:
+glib-watch.c:326:9: warning: ‘g_source_get_current_time’ is deprecated: Use 'g_source_get_time' instead [-Wdeprecated-declarations]
+         g_source_get_current_time(source, &now);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib/giochannel.h:33:0,
+                 from /usr/include/glib-2.0/glib.h:54,
+                 from glib-watch.h:28,
+                 from glib-watch.c:28:
+/usr/include/glib-2.0/glib/gmain.h:526:6: note: declared here
+ void     g_source_get_current_time (GSource        *source,
+      ^~~~~~~~~~~~~~~~~~~~~~~~~

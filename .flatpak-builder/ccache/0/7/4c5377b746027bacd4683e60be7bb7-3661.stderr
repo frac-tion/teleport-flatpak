@@ -1,0 +1,41 @@
+conftest.c:94:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ main ()
+ ^~~~
+conftest.c: In function 'main':
+conftest.c:94:1: warning: old-style function definition [-Wold-style-definition]
+conftest.c:97:18: warning: the address of 's' will always evaluate as 'true' [-Waddress]
+              bool e = &s;
+                  ^
+conftest.c:101:22: warning: the address of 'a' will always evaluate as 'true' [-Waddress]
+              return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                      ^
+conftest.c:101:27: warning: the address of 'b' will always evaluate as 'true' [-Waddress]
+              return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                           ^
+conftest.c:101:32: warning: the address of 'c' will always evaluate as 'true' [-Waddress]
+              return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                                ^
+conftest.c:101:37: warning: the address of 'd' will always evaluate as 'true' [-Waddress]
+              return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                                     ^
+conftest.c:101:47: warning: the address of 'f' will always evaluate as 'true' [-Waddress]
+              return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                                               ^
+conftest.c:101:52: warning: the address of 'g' will always evaluate as 'true' [-Waddress]
+              return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                                                    ^
+conftest.c:101:57: warning: the address of 'h' will always evaluate as 'true' [-Waddress]
+              return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                                                         ^
+conftest.c:101:62: warning: the address of 'i' will always evaluate as 'true' [-Waddress]
+              return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                                                              ^
+conftest.c:102:29: warning: the address of 'n' will always evaluate as 'true' [-Waddress]
+                      + !m + !n + !o + !p + !q + !pq);
+                             ^
+conftest.c:102:34: warning: the address of 'o' will always evaluate as 'true' [-Waddress]
+                      + !m + !n + !o + !p + !q + !pq);
+                                  ^
+conftest.c:102:39: warning: the address of 'p' will always evaluate as 'true' [-Waddress]
+                      + !m + !n + !o + !p + !q + !pq);
+                                       ^

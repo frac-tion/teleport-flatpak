@@ -1,0 +1,19 @@
+In file included from [01m[K../src/teleportappwin.c:5:0[m[K:
+[01m[K../src/server.h:5:1:[m[K [01;35m[Kwarning: [m[Kfunction declaration isn’t a prototype [[01;35m[K-Wstrict-prototypes[m[K]
+ [01;35m[Kextern[m[K int run_http_server();
+ [01;35m[K^~~~~~[m[K
+[01m[K../src/server.h:6:1:[m[K [01;35m[Kwarning: [m[Kfunction declaration isn’t a prototype [[01;35m[K-Wstrict-prototypes[m[K]
+ [01;35m[Kextern[m[K int addRouteToServer();
+ [01;35m[K^~~~~~[m[K
+[01m[K../src/teleportappwin.c:[m[K In function ‘[01m[Kupdate_remote_device_list_remove[m[K’:
+[01m[K../src/teleportappwin.c:119:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kline[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   GtkWidget *[01;35m[Kline[m[K;
+              [01;35m[K^~~~[m[K
+[01m[K../src/teleportappwin.c:[m[K In function ‘[01m[Kteleport_app_window_dispose[m[K’:
+[01m[K../src/teleportappwin.c:167:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpriv[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   TeleportAppWindowPrivate *[01;35m[Kpriv[m[K;
+                             [01;35m[K^~~~[m[K
+[01m[K../src/teleportappwin.c:[m[K In function ‘[01m[Kteleport_app_window_open[m[K’:
+[01m[K../src/teleportappwin.c:200:29:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpriv[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   TeleportAppWindowPrivate *[01;35m[Kpriv[m[K;
+                             [01;35m[K^~~~[m[K
