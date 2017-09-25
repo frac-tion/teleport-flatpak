@@ -5,7 +5,7 @@
   "sdk": "org.gnome.Sdk",
   "command": "teleportapp",
   "tags": ["devel"],
-  "desktop-file-name-prefix": "(Development) ",
+  "desktop-file-name-suffix": " (dev)",
   "finish-args": [
     "--share=network",
     "--share=ipc",
