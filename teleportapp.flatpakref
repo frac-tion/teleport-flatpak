@@ -1,6 +1,6 @@
 [Flatpak Ref]
 Title=Teleport
-Name=org.gtk.teleportapp
+Name=com.frac_tion.teleport
 Branch=master
 Url=http://frac-tion.com/teleport-flatpak/repo
 IsRuntime=False
