@@ -1,5 +1,5 @@
 {
-  "app-id": "org.gtk.teleportapp",
+  "app-id": "com.frac-tion.teleport",
   "runtime": "org.gnome.Platform",
   "runtime-version": "master",
   "sdk": "org.gnome.Sdk",
@@ -60,7 +60,7 @@
         "sources": [
           {
             "type": "git",
-            "branch": "flatpak",
+            "branch": "master",
             "url": "https://github.com/frac-tion/teleport.git"
           }
         ]
