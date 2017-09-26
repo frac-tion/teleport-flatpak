@@ -2,13 +2,13 @@ include Makefile.config
 
 all: test
 
-test: test-repo org.gtk.teleportapp.json
-	flatpak-builder --force-clean --repo=test-repo --ccache --require-changes teleportapp org.gtk.teleportapp.json
+test: test-repo com.frac_tion.teleport.json
+	flatpak-builder --force-clean --repo=test-repo --ccache --require-changes teleportapp com.frac_tion.teleport.json
 	flatpak build-update-repo test-repo
 
-release: repo org.gtk.teleportapp.json
+release: repo com.frac_tion.teleport.json
 	if [ "x${RELEASE_GPG_KEY}" == "x" ]; then echo Must set RELEASE_GPG_KEY in Makefile.config, try \'make gpg-key\'; exit 1; fi
-	flatpak-builder --force-clean --repo=repo  --ccache --gpg-homedir=~/.gnupg --gpg-sign=${RELEASE_GPG_KEY} teleportapp  org.gtk.teleportapp.json
+	flatpak-builder --force-clean --repo=repo  --ccache --gpg-homedir=~/.gnupg --gpg-sign=${RELEASE_GPG_KEY} teleportapp  com.frac_tion.teleport.json
 	flatpak build-update-repo --generate-static-deltas --gpg-homedir=~/.gnupg --gpg-sign=${RELEASE_GPG_KEY} repo
 
 test-repo:
