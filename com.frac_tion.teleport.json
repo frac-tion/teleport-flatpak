@@ -59,7 +59,6 @@
       },
       {
         "name": "teleportapp",
-        "post-install" : ["xdg-user-dirs-update"],
         "sources": [
           {
             "type": "git",
