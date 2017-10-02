@@ -3,7 +3,7 @@
   "runtime": "org.gnome.Platform",
   "runtime-version": "master",
   "sdk": "org.gnome.Sdk",
-  "command": "teleportapp",
+  "command": "teleport",
   "tags": ["devel"],
   "desktop-file-name-suffix": " (dev)",
   "finish-args": [
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "name": "teleportapp",
+        "name": "teleport",
         "sources": [
           {
             "type": "git",
