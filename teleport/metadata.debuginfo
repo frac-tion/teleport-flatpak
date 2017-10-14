@@ -1,5 +1,0 @@
-[Runtime]
-name=com.frac_tion.teleport.Debug
-
-[ExtensionOf]
-ref=app/com.frac_tion.teleport/x86_64/master
