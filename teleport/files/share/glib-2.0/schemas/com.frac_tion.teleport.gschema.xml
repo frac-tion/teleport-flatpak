@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/com/frac_tion/teleport/" id="com.frac_tion.teleport">
+    <key name="download-dir" type="s">
+      <default>'~/Downloads'</default>
+      <summary>Download directory</summary>
+      <description>The directory to save all incoming files.</description>
+    </key>
+    <key name="device-name" type="s">
+      <default>'unknown'</default>
+      <summary>Device name</summary>
+      <description>The device name shown to other devices.</description>
+    </key>
+  </schema>
+</schemalist>

@@ -3,7 +3,7 @@
   "runtime": "org.gnome.Platform",
   "runtime-version": "master",
   "sdk": "org.gnome.Sdk",
-  "command": "teleportapp",
+  "command": "teleport",
   "tags": ["devel"],
   "desktop-file-name-suffix": " (dev)",
   "finish-args": [
@@ -12,6 +12,8 @@
     "--socket=x11",
     "--socket=wayland",
     "--socket=system-bus",
+    "--filesystem=home:ro",
+    "--filesystem=xdg-download",
     "--filesystem=xdg-run/dconf",
     "--filesystem=~/.config/dconf:ro",
     "--talk-name=ca.desrt.dconf",
@@ -56,7 +58,7 @@
         ]
       },
       {
-        "name": "teleportapp",
+        "name": "teleport",
         "sources": [
           {
             "type": "git",

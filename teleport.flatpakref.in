@@ -1,0 +1,9 @@
+[Flatpak Ref]
+Title=Teleport
+Name=org.gtk.teleportapp
+Branch=master
+Url=@URL@
+IsRuntime=False
+GPGKey=@GPG@
+RuntimeRepo=https://sdk.gnome.org/gnome-nightly.flatpakrepo
+Comment=org.gtk.teleportapp
