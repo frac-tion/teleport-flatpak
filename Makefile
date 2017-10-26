@@ -10,6 +10,9 @@ release: repo com.frac_tion.teleport.json
 	if [ "x${RELEASE_GPG_KEY}" == "x" ]; then echo Must set RELEASE_GPG_KEY in Makefile.config, try \'make gpg-key\'; exit 1; fi
 	flatpak-builder --force-clean --repo=repo  --ccache --gpg-homedir=~/.gnupg --gpg-sign=${RELEASE_GPG_KEY} teleport com.frac_tion.teleport.json
 	flatpak build-update-repo --generate-static-deltas --gpg-homedir=~/.gnupg --gpg-sign=${RELEASE_GPG_KEY} repo
+	git add .
+	git commit -m "[build] update to new version"
+	git push origin master
 
 test-repo:
 	ostree init --mode=archive-z2 --repo=test-repo
