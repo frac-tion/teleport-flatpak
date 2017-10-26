@@ -1,7 +1,7 @@
 {
   "app-id": "com.frac_tion.teleport",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "master",
+  "runtime-version": "3.26",
   "sdk": "org.gnome.Sdk",
   "command": "teleport",
   "tags": ["devel"],
@@ -11,7 +11,7 @@
     "--share=ipc",
     "--socket=x11",
     "--socket=wayland",
-    "--socket=system-bus",
+    "--system-talk-name=org.freedesktop.Avahi",
     "--filesystem=home:ro",
     "--filesystem=xdg-download",
     "--filesystem=xdg-run/dconf",
