@@ -12,6 +12,7 @@
     "--socket=x11",
     "--socket=wayland",
     "--system-talk-name=org.freedesktop.Avahi",
+    "--talk-name=org.freedesktop.FileManager1",
     "--filesystem=home",
     "--env=GSETTINGS_SCHEMA_DIR=/app/share/glib-2.0/schemas",
     "--filesystem=xdg-run/dconf",
