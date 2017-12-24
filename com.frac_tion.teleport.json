@@ -64,7 +64,7 @@
           {
             "type": "git",
             "branch": "master",
-            "url": "https://github.com/frac-tion/teleport.git"
+            "url": "https://gitlab.gnome.org/jsparber/teleport.git"
           }
         ]
       }
